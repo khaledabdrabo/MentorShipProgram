@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Mentorship\\Mentorship.Basics\\Mentorship.Basics.csproj": {}
+    "C:\\Personal\\MentorShipProgram\\Mentorship.Basics\\Mentorship.Basics.csproj": {}
   },
   "projects": {
-    "E:\\Mentorship\\Mentorship.Basics\\Mentorship.Basics.csproj": {
+    "C:\\Personal\\MentorShipProgram\\Mentorship.Basics\\Mentorship.Basics.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Mentorship\\Mentorship.Basics\\Mentorship.Basics.csproj",
+        "projectUniqueName": "C:\\Personal\\MentorShipProgram\\Mentorship.Basics\\Mentorship.Basics.csproj",
         "projectName": "Mentorship.Basics",
-        "projectPath": "E:\\Mentorship\\Mentorship.Basics\\Mentorship.Basics.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "E:\\Mentorship\\Mentorship.Basics\\obj\\",
+        "projectPath": "C:\\Personal\\MentorShipProgram\\Mentorship.Basics\\Mentorship.Basics.csproj",
+        "packagesPath": "C:\\Users\\khaledyousef\\.nuget\\packages\\",
+        "outputPath": "C:\\Personal\\MentorShipProgram\\Mentorship.Basics\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\khaledyousef\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
