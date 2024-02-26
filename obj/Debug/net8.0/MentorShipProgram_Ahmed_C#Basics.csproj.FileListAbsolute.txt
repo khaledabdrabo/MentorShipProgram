@@ -1,0 +1,15 @@
+C:\Users\Ahmed Meky\Desktop\git\MentorShipProgram\bin\Debug\net8.0\MentorShipProgram_Ahmed_C#Basics.exe
+C:\Users\Ahmed Meky\Desktop\git\MentorShipProgram\bin\Debug\net8.0\MentorShipProgram_Ahmed_C#Basics.deps.json
+C:\Users\Ahmed Meky\Desktop\git\MentorShipProgram\bin\Debug\net8.0\MentorShipProgram_Ahmed_C#Basics.runtimeconfig.json
+C:\Users\Ahmed Meky\Desktop\git\MentorShipProgram\bin\Debug\net8.0\MentorShipProgram_Ahmed_C#Basics.dll
+C:\Users\Ahmed Meky\Desktop\git\MentorShipProgram\bin\Debug\net8.0\MentorShipProgram_Ahmed_C#Basics.pdb
+C:\Users\Ahmed Meky\Desktop\git\MentorShipProgram\obj\Debug\net8.0\MentorShipProgram_Ahmed_C#Basics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ahmed Meky\Desktop\git\MentorShipProgram\obj\Debug\net8.0\MentorShipProgram_Ahmed_C#Basics.AssemblyInfoInputs.cache
+C:\Users\Ahmed Meky\Desktop\git\MentorShipProgram\obj\Debug\net8.0\MentorShipProgram_Ahmed_C#Basics.AssemblyInfo.cs
+C:\Users\Ahmed Meky\Desktop\git\MentorShipProgram\obj\Debug\net8.0\MentorShipProgram_Ahmed_C#Basics.csproj.CoreCompileInputs.cache
+C:\Users\Ahmed Meky\Desktop\git\MentorShipProgram\obj\Debug\net8.0\MentorShipProgram_Ahmed_C#Basics.sourcelink.json
+C:\Users\Ahmed Meky\Desktop\git\MentorShipProgram\obj\Debug\net8.0\MentorShipProgram_Ahmed_C#Basics.dll
+C:\Users\Ahmed Meky\Desktop\git\MentorShipProgram\obj\Debug\net8.0\refint\MentorShipProgram_Ahmed_C#Basics.dll
+C:\Users\Ahmed Meky\Desktop\git\MentorShipProgram\obj\Debug\net8.0\MentorShipProgram_Ahmed_C#Basics.pdb
+C:\Users\Ahmed Meky\Desktop\git\MentorShipProgram\obj\Debug\net8.0\MentorShipProgram_Ahmed_C#Basics.genruntimeconfig.cache
+C:\Users\Ahmed Meky\Desktop\git\MentorShipProgram\obj\Debug\net8.0\ref\MentorShipProgram_Ahmed_C#Basics.dll
