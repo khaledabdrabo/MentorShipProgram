@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MentorShipProgram_Ahmed_C#Basics")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be964b5928a9c65d8522f227eb3eecdafeb9bf5b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+160cbb4e409b5f3087bc676e8c93da4e2522a9ea")]
 [assembly: System.Reflection.AssemblyProductAttribute("MentorShipProgram_Ahmed_C#Basics")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MentorShipProgram_Ahmed_C#Basics")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
