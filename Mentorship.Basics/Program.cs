@@ -1,4 +1,8 @@
 ﻿
+using System.Numerics;
+using System.Security.Cryptography;
+using System.Threading.Tasks;
+
 namespace Mentorship.Basics
 {
     internal class Program
@@ -49,6 +53,34 @@ namespace Mentorship.Basics
             #region problem11_ArrayOperations
             //int [] playerScores = new[] {1,2,3,4,5,6,7,8,9};
             //ArrayOperations.CalculateAverageScore(playerScores);
+            #endregion
+            #region problem12_ListsInitialization
+            //ListsInitialization.InitializeTaskList();
+            #endregion
+            #region problem13_ListOperations
+            //List<Task> tasks = new();
+            //ListOperations.ManageToDoList(tasks);
+            #endregion
+            #region problem14_NestedControlFlow
+            //string state = ReadLine();
+            //NestedControlFlow.SimulateTrafficLight(state);
+            #endregion
+            #region problem15_NestedLoops
+            //WriteLine("Enter rows then columns !");
+            //int rows = int.Parse(ReadLine());
+            //int columns = int.Parse(ReadLine());
+            //NestedLoops.CreatePattern(rows, columns);
+            #endregion
+            #region problem16_BreakAndContinue
+            //BreakAndContinue.GameOptions();
+            #endregion
+            #region problem17_BreakAndContinue
+            //string userInput = ReadLine();
+            //ErrorHandling.HandleInvalidInput(userInput);
+            #endregion
+            #region problem18_RandomNumberGeneration
+            //string[] questions = { "question 1", "question 2", "question 3", "question 4" };
+            //RandomNumberGeneration.GenerateRandomQuestion(questions);
             #endregion
         }
     }
