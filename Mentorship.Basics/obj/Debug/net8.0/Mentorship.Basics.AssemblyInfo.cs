@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mentorship.Basics")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+74ade4df57f3cbed5345bce1c18f1bd9dd559b83")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mentorship.Basics")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mentorship.Basics")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
