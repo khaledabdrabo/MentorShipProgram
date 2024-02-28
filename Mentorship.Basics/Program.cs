@@ -82,6 +82,32 @@ namespace Mentorship.Basics
             //string[] questions = { "question 1", "question 2", "question 3", "question 4" };
             //RandomNumberGeneration.GenerateRandomQuestion(questions);
             #endregion
+            #region problem20_MultiDimensionalArrays
+            //int rows = int.Parse(ReadLine());
+            //int columns = int.Parse(ReadLine());
+            //MultiDimensionalArrays.InitializeGameBoard(rows, columns);
+            #endregion
+            #region problem21_ArrayReverse
+            //int[] array = new[] { 1, 2, 3, 4, 5, 6, 7, 8 };
+            //ArrayReverse.ReverseArray(array);
+            #endregion
+            #region problem22_FindMaximumElement
+            //long[] array = new[] { 1L, 2L, 3L, 4L, 5L, 6L, 7L, 8L };
+            //FindMaximumElement.FindMaxElement(array);
+            #endregion
+            #region problem23_MergeArrays
+            //int[] array1 = new[] { 1, 2, 3, 4, 5 };
+            //int[] array2 = new[] { 6, 7, 8, 9 };
+            //MergeArrays.MergeTwoArrays(array1, array2);
+            #endregion
+            #region problem24_RemoveDuplicatesFromArray
+            int[] array = new [] { 1, 1, 2, 2, 3, 4, 5, 5 };
+            int[] result = RemoveDuplicatesFromArray.RemoveDuplicates(array);
+            foreach (int item in result)
+            {
+                Write(item + " ");
+            }
+            #endregion
         }
     }
 }

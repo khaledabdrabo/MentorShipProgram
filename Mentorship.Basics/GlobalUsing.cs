@@ -1,5 +1,6 @@
 ﻿global using System;
 global using static System.Console;
+global using static System.Math;
 global using System.Collections.Generic;
 global using System.Linq;
 global using System.Text;
