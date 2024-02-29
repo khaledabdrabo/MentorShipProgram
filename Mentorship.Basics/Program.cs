@@ -101,12 +101,37 @@ namespace Mentorship.Basics
             //MergeArrays.MergeTwoArrays(array1, array2);
             #endregion
             #region problem24_RemoveDuplicatesFromArray
-            int[] array = new [] { 1, 1, 2, 2, 3, 4, 5, 5 };
-            int[] result = RemoveDuplicatesFromArray.RemoveDuplicates(array);
-            foreach (int item in result)
-            {
-                Write(item + " ");
-            }
+            //int[] array = new [] { 1, 1, 2, 2, 3, 4, 5, 5 };
+            //int[] result = RemoveDuplicatesFromArray.RemoveDuplicates(array);
+            //foreach (int item in result)
+            //{
+            //    Write(item + " ");
+            //}
+            #endregion
+            #region problem25_TwoSumProblem
+            //int[] array = new[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+            //int target = 15;
+            //KeyValuePair<int,int> result = TwoSumProblem.FindTwoSum(array, target);
+            //WriteLine($"the two numbers are {result.Key} and {result.Value}");
+            #endregion
+            #region problem26_LinkedListImplementation
+            //LinkedListImplementation.ImplementLinkedList();
+            #endregion
+            #region problem27_SortLinkedList
+            //linkedList<int> myLinkedList = new(new[] {3,4,5,1,2});
+            //SortLinkedList.SortLinkedListFunction(myLinkedList);
+            //myLinkedList.DisplayList();
+            #endregion
+            #region problem28_DetectLoopInLinkedList
+            //linkedList<int> myLinkedList = new(new[] {3,4,5,1,2});
+            //bool result = DetectLoopInLinkedList.DetectLoop(myLinkedList);
+            //WriteLine(result);
+            #endregion
+            #region problem29_MergeSortedLists
+            linkedList<int> list1 = new(new[] { 1, 2, 3, 4, 5 });
+            linkedList<int> list2 = new(new[] { 6, 7, 8, 9 });
+            var mergedList = MergeSortedLists.MergeSortedListsFunction(list1, list2);
+            mergedList.DisplayList();
             #endregion
         }
     }
