@@ -128,10 +128,32 @@ namespace Mentorship.Basics
             //WriteLine(result);
             #endregion
             #region problem29_MergeSortedLists
-            linkedList<int> list1 = new(new[] { 1, 2, 3, 4, 5 });
-            linkedList<int> list2 = new(new[] { 6, 7, 8, 9 });
-            var mergedList = MergeSortedLists.MergeSortedListsFunction(list1, list2);
-            mergedList.DisplayList();
+            //linkedList<int> list1 = new(new[] { 1, 2, 3, 4, 5 });
+            //linkedList<int> list2 = new(new[] { 6, 7, 8, 9 });
+            //var mergedList = MergeSortedLists.MergeSortedListsFunction(list1, list2);
+            //mergedList.DisplayList();
+            #endregion
+            #region problem31_WordFrequencyCounter
+            //WordFrequencyCounter.CountWordFrequency("i will get a good job because i am a good developer");
+            #endregion
+            #region problem32_MergeDictionaries
+            //Dictionary<int, int> dict1 = new(new KeyValuePair<int, int>[] { new(1, 2), new (3,4) });
+            //Dictionary<int, int> dict2 = new(new KeyValuePair<int, int>[] { new(5, 6), new(7, 8) });
+            //Dictionary<int, int> mergedDictionary = MergeDictionaries.MergeTwoDictionaries(dict1, dict2);
+            #endregion
+            #region problem33_FindCommonElementsInDictionaries
+            //Dictionary<int, int> dict1 = new(new KeyValuePair<int, int>[] { new(1, 2), new (3,4) });
+            //Dictionary<int, int> dict2 = new(new KeyValuePair<int, int>[] { new(1, 2), new(7, 8) });
+            //Dictionary<int, int> commonElements = FindCommonElementsInDictionaries.FindCommonElements(dict1, dict2);
+            #endregion
+            #region problem34_InvertDictionary
+            //Dictionary<int, int> originalDictionary = new(new KeyValuePair<int, int>[] { new(1, 2), new(3, 4) });
+            //var invertedDict = InvertDictionary.InvertDictionaryFunction(originalDictionary);
+            #endregion
+            #region problem35_RemoveKeyValuePair
+            //Dictionary<int, int> originalDictionary = new(new KeyValuePair<int, int>[] { new(1, 2), new(3, 4) });
+            //int keyToRemove = 3;
+            //RemoveKeyValuePair.RemoveKeyValuePairFunction(originalDictionary, keyToRemove);
             #endregion
         }
     }
