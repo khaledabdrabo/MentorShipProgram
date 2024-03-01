@@ -77,6 +77,10 @@
             //string[] questions = { "question 1", "question 2", "question 3", "question 4" };
             //RandomNumberGeneration.GenerateRandomQuestion(questions);
             #endregion
+            #region problem19_FileHandling
+            //string filePath = @"C:\Users\Ahmed Meky\Desktop\git\MentorShipProgram - Copy\MentorShipProgram\Mentorship.Basics\file.txt";
+            //FileHandling.ReadAndProcessDataFromFile(filePath);
+            #endregion
             #region problem20_MultiDimensionalArrays
             //int rows = int.Parse(ReadLine());
             //int columns = int.Parse(ReadLine());
@@ -207,7 +211,22 @@
             //    sortedStack.Pop();
             //}
             #endregion
-
+            #region problem46_TextFileReader
+            //string filePath = @"C:\Users\Ahmed Meky\Desktop\git\MentorShipProgram - Copy\MentorShipProgram\Mentorship.Basics\file.txt";
+            //Console.WriteLine("Reading and displaying content of file: " + filePath);
+            //TextFileReader.ReadAndDisplayTextFile(filePath);
+            #endregion
+            #region problem47_TextFileWriter
+            //string filePath = @"C:\Users\Ahmed Meky\Desktop\git\MentorShipProgram - Copy\MentorShipProgram\Mentorship.Basics\file.txt";
+            //Console.WriteLine("Enter data to be saved to the text file:");
+            //string content = ReadLine();
+            //TextFileWriter.WriteToTextFile(filePath, content);
+            #endregion
+            #region problem48_CsvFileReader
+            string filePath = @"C:\Users\Ahmed Meky\Desktop\git\MentorShipProgram - Copy\MentorShipProgram\Mentorship.Basics\example.csv";
+            Console.WriteLine("Reading and parsing content of CSV file: " + filePath);
+            CsvFileReader.ReadAndParseCsvFile(filePath);
+            #endregion
         }
     }
 }
