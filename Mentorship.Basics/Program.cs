@@ -1,4 +1,5 @@
 ﻿
+using System.Linq.Expressions;
 using System.Numerics;
 using System.Security.Cryptography;
 using System.Threading.Tasks;
@@ -155,6 +156,53 @@ namespace Mentorship.Basics
             //int keyToRemove = 3;
             //RemoveKeyValuePair.RemoveKeyValuePairFunction(originalDictionary, keyToRemove);
             #endregion
+            #region problem36_ImplementQueue
+            //ImplementQueue.QueueImplementation();
+            #endregion
+            #region problem38_PrintBinaryNumbers
+            //PrintBinaryNumbers.PrintFirstNBinaryNumbers(5);
+            #endregion
+            #region problem39_PrintBinaryNumbers
+            queue<int> myQueue = new();
+            myQueue.EnQueue(1);
+            myQueue.EnQueue(2);
+            myQueue.EnQueue(3);
+            ReverseFirstKElement.ReverseFirstKElementImplementation(myQueue,3);
+            while (!myQueue.IsEmpty())
+            {
+                Write(myQueue.DeQueue() + " ");
+            }
+            #endregion
+            #region problem41_ImplementStack
+            //ImplementStack.StackImplementation();
+            #endregion
+            #region problem42_EvaluatePostfixExpression
+            //string expression = "1 4 - 2 +";
+            //string result = EvaluatePostfixExpression.EvaluatePostfix(expression);
+            //WriteLine(result);
+            #endregion
+            #region problem43_BalancedParentheses
+            //bool isBalanced = BalancedParentheses.CheckBalancedParentheses("{{{}}}()[]");
+            //WriteLine(isBalanced);
+            #endregion
+            #region problem44_NextGreaterElement
+            //int[] array = new[] { 2, 5, 8, 6, 4, 3 };
+            //var resultDictionary = NextGreaterElement.FindNextGreaterElement(array);
+            //foreach (var item in resultDictionary) WriteLine($"{item.Key} : {item.Value}");
+            #endregion
+            #region problem45_SortStack
+            //stack<int> myStack = new();
+            //myStack.Push(2);
+            //myStack.Push(3);
+            //myStack.Push(1);
+            //stack<int> sortedStack = SortStack.SortStackFunction(myStack);
+            //while(!sortedStack.IsEmpty())
+            //{
+            //    Write(sortedStack.Peak() + " ");
+            //    sortedStack.Pop();
+            //}
+            #endregion
+
         }
     }
 }

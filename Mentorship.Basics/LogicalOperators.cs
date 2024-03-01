@@ -2,9 +2,9 @@
 
 public class LogicalOperators
 {
-    public static bool PlayerStatusCheck(int score,int lives)
+    public static bool PlayerStatusCheck(int score, int lives)
     {
-        if(score>100&&lives<=0)
+        if (score > 100 && lives <= 0)
         {
             return true;
         }

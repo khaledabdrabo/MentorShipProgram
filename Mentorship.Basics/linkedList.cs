@@ -8,10 +8,7 @@ public class linkedList<T>
     {
         foreach(T item in array)
         {
-            linkedListNode<T> node = new();
-            node.Data = item;
-            node.Next = Head;
-            Head = node;
+            AddNode(item);
         }
     }
     public void AddNode(T data)
