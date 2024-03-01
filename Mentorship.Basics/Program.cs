@@ -1,10 +1,4 @@
-﻿
-using System.Linq.Expressions;
-using System.Numerics;
-using System.Security.Cryptography;
-using System.Threading.Tasks;
-
-namespace Mentorship.Basics
+﻿namespace Mentorship.Basics
 {
     internal class Program
     {
@@ -163,15 +157,26 @@ namespace Mentorship.Basics
             //PrintBinaryNumbers.PrintFirstNBinaryNumbers(5);
             #endregion
             #region problem39_PrintBinaryNumbers
-            queue<int> myQueue = new();
-            myQueue.EnQueue(1);
-            myQueue.EnQueue(2);
-            myQueue.EnQueue(3);
-            ReverseFirstKElement.ReverseFirstKElementImplementation(myQueue,3);
-            while (!myQueue.IsEmpty())
-            {
-                Write(myQueue.DeQueue() + " ");
-            }
+            //queue<int> myQueue = new();
+            //myQueue.EnQueue(1);
+            //myQueue.EnQueue(2);
+            //myQueue.EnQueue(3);
+            //myQueue.EnQueue(4);
+            //myQueue.EnQueue(5);
+            //myQueue = ReverseFirstKElement.ReverseFirstKElementImplementation(myQueue,3);
+            //while (!myQueue.IsEmpty())
+            //{
+            //    Write(myQueue.DeQueue() + " ");
+            //}
+            #endregion
+            #region problem40_InterleavesTwoQueues
+            //queue<int> queue1 = new();
+            //queue1.EnQueue(1);
+            //queue1.EnQueue(2);
+            //queue<int> queue2 = new();
+            //queue1.EnQueue(3);
+            //queue1.EnQueue(4);
+            //queue<int> resultQueue = InterleavesTwoQueues.InterleaveTwoQueues(queue1, queue2);
             #endregion
             #region problem41_ImplementStack
             //ImplementStack.StackImplementation();

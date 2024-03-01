@@ -1,31 +1,22 @@
 ﻿namespace Mentorship.Basics;
-
 internal class ReverseFirstKElement
 {
-    public static void ReverseFirstKElementImplementation(queue<int> myQueue, int k)
+    public static queue<int> ReverseFirstKElementImplementation(queue<int> myQueue, int k)
     {
-        int[] array = new int[k];
-        queue<int> tempQueue = new();
-
-        for (int i = 0; i < k; i++)
+        int[] array = new int[myQueue.Size];
+        for (int i = k - 1; i >= 0; i--)
         {
             array[i] = myQueue.DeQueue();
         }
-
-        Array.Reverse(array);
-
-        while (!myQueue.IsEmpty())
+        for (int i = k; i < array.Length; i++)
         {
-            tempQueue.EnQueue(myQueue.DeQueue());
+            array[i] = myQueue.DeQueue();
+        }
+        for (int i = 0; i < array.Length; i++)
+        {
+            myQueue.EnQueue(array[i]);
         }
 
-        foreach(int item in array)
-        {
-            myQueue.EnQueue(item);
-        }
-        while (!tempQueue.IsEmpty())
-        {
-            myQueue.EnQueue(tempQueue.DeQueue());
-        }
+        return myQueue;
     }
 }

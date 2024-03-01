@@ -9,7 +9,7 @@ internal class queue<T>
 
     private Node<T> Head { get; set; }
     private Node<T> Tail { get; set; }
-    private int _size { get; set; }
+    private int _size { get; set; } = 0;
     public int Size => _size;
 
     public void EnQueue(T data)
@@ -39,7 +39,7 @@ internal class queue<T>
 
     public T Front() => Head.Data;
 
-    public bool IsEmpty() => Size == 0; // Head == null || Tail == null;
+    public bool IsEmpty() => Head == null || Tail == null;
 
     private class Node<T>
     {
