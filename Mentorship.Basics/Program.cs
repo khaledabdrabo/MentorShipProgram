@@ -223,9 +223,17 @@
             //TextFileWriter.WriteToTextFile(filePath, content);
             #endregion
             #region problem48_CsvFileReader
-            string filePath = @"C:\Users\Ahmed Meky\Desktop\git\MentorShipProgram - Copy\MentorShipProgram\Mentorship.Basics\example.csv";
-            Console.WriteLine("Reading and parsing content of CSV file: " + filePath);
-            CsvFileReader.ReadAndParseCsvFile(filePath);
+            //string filePath = @"C:\Users\Ahmed Meky\Desktop\git\MentorShipProgram - Copy\MentorShipProgram\Mentorship.Basics\example.csv";
+            //Console.WriteLine("Reading and parsing content of CSV file: " + filePath);
+            //CsvFileReader.ReadAndParseCsvFile(filePath);
+            #endregion
+            #region problem49_CsvFileWriter
+            //string filePath = @"C:\Users\Ahmed Meky\Desktop\git\MentorShipProgram - Copy\MentorShipProgram\Mentorship.Basics\example.csv";
+            //WriteLine("Enter CSV headers (comma-separated):");
+            //string[] headers = Console.ReadLine().Split(',');
+            //WriteLine("Enter CSV data (comma-separated, rows separated by semicolon):");
+            //string[,] data = new[,] { { "aa","bb" },{ "cc","dd"} };
+            //CsvFileWriter.WriteToCsvFile(filePath, headers, data);
             #endregion
         }
     }
